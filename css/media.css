@@ -1,0 +1,216 @@
+/* Mobile Version  */
+@media (max-width:667px){
+    /* header part  */
+    .logo-part{
+        width: 50%;
+        text-align: center;
+    }
+    .logo-part h1{
+        padding-top: 10px;
+    }
+    .menu-part{
+        width: 100%;
+        text-align: center;
+    }
+   .checkbtn{
+    display: block;
+   }
+   .menu-part{
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    background-color: #223047a5;
+    left: 60px;
+    top: -100%;
+    text-align: center;
+    transition: all 0.5s;
+   }
+   .menu-part li{
+    display: inline;
+    font-size: 20px;
+   } 
+   .menu-part li a{
+    padding-top: 20px;
+   }
+   #check:checked ~ ul{
+    top: 0;
+    text-align: center;
+    padding: 20px;
+   }
+   .btn{
+    width: 40%;
+   }
+   .btn a button{
+    width: 100%;
+   }
+   .header-writting-part{
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+   }
+   .header-writting-part .heading{
+     text-align: center;
+     width: 90%;
+   }
+   .header-writting-part .pragraph{
+    padding-right: 40px;
+    width: 90%;
+    text-align: center;
+   }
+   .header-btn{
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 40px;
+   }
+   .header-btn .btn1{
+    width: 100%;
+   }
+   .header-btn .btn2{
+    width: 100%;
+    margin-top: 20px;
+   }
+   .image-part{
+    width: 50%;
+    float: left;
+    text-align: end;
+    margin-top: 20px;
+    }
+   .image-part img{
+    bottom: 0;
+   }
+   /* brand  */
+   .brand-writting-part .global-heading{
+    width: 100%;
+   }
+   .box-part{
+    padding-left: 40px;
+   }
+   .brand-box {
+    font-size:6px;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+   }
+   .brand-box img{
+    width: 40px;
+   } 
+   .brand-box .pragraph{
+    line-height:10px;
+    width: 100%;
+   } 
+   /* smartphone part  */
+   .space{
+    width: 100%;
+   }
+   .smartphone-writting-part{
+    width: 100%;
+   } 
+   .writting-box{
+    padding: 10px 0px;
+    padding-left: 50px;
+    font-size: 15px;
+   }
+   .writting-box .smal-heading{
+    width: 60%;
+   }
+   .writting-box .pragraph{
+    width: 100%;
+   }
+   /* stady part   */
+   .stady-writting-part{
+    width: 100%;
+   }
+   .stady-writting-part a button{
+    width: 50%;
+   }
+   .code-image-part {
+    width: 100%;
+   }
+   /* screen part  */
+   #screen{
+    height: auto;
+   }
+   .screen-image{
+    width: 100%;
+    text-align: center;
+   }
+   .screen-menu{
+    width: 100%;
+    padding: 0;
+   }
+   .screen-menu a button{
+    width: 100%;
+   }
+   .screen-menu a button img{
+    width: 15%;
+   }
+   .screen-menu a .button-uniq img{
+    width: 12%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+   }
+   /* phone type */ 
+   .type-writting-part{
+    width: 100%;
+   }
+   .type-image-part{
+    width: 100%;
+   }
+   .type-image-part .left{
+    left: 105px;
+    top: 17px;
+   }
+   .type-image-part .right{
+    left: 200px;
+    top: 16px;
+   }
+   .type-image-part .mid{
+    left: -25px;
+    top: 20px;
+   }
+   /* watch part */
+   .watch-part{
+    width: 100%;
+    margin: 50px 0px;
+   }
+   .watch-part .pragraph{
+    width: 100%;
+   }
+   /* joining part  */
+   .joining-part .btn1{
+    width: 50%;
+   } 
+   /* pragraph part */
+   .pragraph-part .pragraph{
+    width: 100%;
+   }
+   /* app part  */
+   #app{
+    height: auto;
+   }
+   .app-part{
+    padding: 10px;
+   }
+   .app-image-part {
+    width: 100%;
+    text-align: center;
+   }
+   .app-image-part IMG{
+    width: 40%;
+   } 
+   .app-writting-part {
+    width: 100%;
+    padding: 0;
+    font-size: 15px;
+   }
+   .app-writting-part .pragraph{
+    line-height: 20px;
+   } 
+   #app a .btn1{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+   }
+}
